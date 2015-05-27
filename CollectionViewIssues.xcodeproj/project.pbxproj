@@ -13,6 +13,11 @@
 		E771AB721B152546007A81F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E771AB711B152546007A81F0 /* Images.xcassets */; };
 		E771AB751B152546007A81F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E771AB731B152546007A81F0 /* LaunchScreen.xib */; };
 		E771AB811B152547007A81F0 /* CollectionViewIssuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771AB801B152547007A81F0 /* CollectionViewIssuesTests.swift */; };
+		E771AB8B1B152642007A81F0 /* KBHBarSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771AB8A1B152642007A81F0 /* KBHBarSlider.swift */; };
+		E771AB8E1B152655007A81F0 /* VOLBarSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771AB8C1B152655007A81F0 /* VOLBarSliderCell.swift */; };
+		E771AB8F1B152655007A81F0 /* VOLBarSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E771AB8D1B152655007A81F0 /* VOLBarSliderCell.xib */; };
+		E771AB921B15281D007A81F0 /* VOLCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771AB901B15281D007A81F0 /* VOLCircleView.swift */; };
+		E771AB931B15281D007A81F0 /* VOLCircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E771AB911B15281D007A81F0 /* VOLCircleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		E771AB7A1B152546007A81F0 /* CollectionViewIssuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewIssuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E771AB7F1B152547007A81F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E771AB801B152547007A81F0 /* CollectionViewIssuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewIssuesTests.swift; sourceTree = "<group>"; };
+		E771AB8A1B152642007A81F0 /* KBHBarSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBHBarSlider.swift; sourceTree = "<group>"; };
+		E771AB8C1B152655007A81F0 /* VOLBarSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VOLBarSliderCell.swift; sourceTree = "<group>"; };
+		E771AB8D1B152655007A81F0 /* VOLBarSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VOLBarSliderCell.xib; sourceTree = "<group>"; };
+		E771AB901B15281D007A81F0 /* VOLCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VOLCircleView.swift; sourceTree = "<group>"; };
+		E771AB911B15281D007A81F0 /* VOLCircleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VOLCircleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				E771AB6A1B152546007A81F0 /* AppDelegate.swift */,
-				E771AB6C1B152546007A81F0 /* ViewController.swift */,
+				E771AB8A1B152642007A81F0 /* KBHBarSlider.swift */,
 				E771AB6E1B152546007A81F0 /* Main.storyboard */,
+				E771AB6C1B152546007A81F0 /* ViewController.swift */,
+				E771AB8C1B152655007A81F0 /* VOLBarSliderCell.swift */,
+				E771AB8D1B152655007A81F0 /* VOLBarSliderCell.xib */,
+				E771AB901B15281D007A81F0 /* VOLCircleView.swift */,
+				E771AB911B15281D007A81F0 /* VOLCircleView.xib */,
 				E771AB711B152546007A81F0 /* Images.xcassets */,
 				E771AB731B152546007A81F0 /* LaunchScreen.xib */,
 				E771AB681B152546007A81F0 /* Supporting Files */,
@@ -194,6 +209,8 @@
 			files = (
 				E771AB701B152546007A81F0 /* Main.storyboard in Resources */,
 				E771AB751B152546007A81F0 /* LaunchScreen.xib in Resources */,
+				E771AB931B15281D007A81F0 /* VOLCircleView.xib in Resources */,
+				E771AB8F1B152655007A81F0 /* VOLBarSliderCell.xib in Resources */,
 				E771AB721B152546007A81F0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E771AB921B15281D007A81F0 /* VOLCircleView.swift in Sources */,
 				E771AB6D1B152546007A81F0 /* ViewController.swift in Sources */,
 				E771AB6B1B152546007A81F0 /* AppDelegate.swift in Sources */,
+				E771AB8E1B152655007A81F0 /* VOLBarSliderCell.swift in Sources */,
+				E771AB8B1B152642007A81F0 /* KBHBarSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
